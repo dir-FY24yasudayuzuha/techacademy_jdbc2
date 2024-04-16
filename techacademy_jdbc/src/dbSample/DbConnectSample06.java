@@ -36,7 +36,7 @@ public class DbConnectSample06 {
  */
 
 private static String keyIn() {
-    String lineString = null;
+    String line = null;
     try {
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
         line = key.readLine();

@@ -66,6 +66,7 @@ public class CountryDAO {
                 
             }
             DatabaseManager.close();
+            
         }
         return results;
         }

@@ -21,7 +21,7 @@ public class DatabaseManager {
                 
     }
     
-    public void close() {
+    public static void close() {
         // 7. 接続を閉じる
         if (con != null) {
             try {
